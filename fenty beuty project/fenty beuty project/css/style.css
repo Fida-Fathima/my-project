@@ -1,0 +1,425 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "poppinslight","poppinsbold",'poppinsextrabold','poppinsextralight','poppinsbold';
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family:"poppinslight","poppinsbold",'poppinsextrabold','poppinsextralight','poppinsbold';
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    display: block;
+    width: 100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 18px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+h3{
+    font-size: 45px;
+    font-weight: bolder;
+}
+ 
+#home .wrapper header .header-top { 
+      background-color: #000;
+      width: 100%;
+      text-align: center;
+      line-height: 2;
+}
+#home .wrapper header .header-top h4 { 
+      color: #fff;
+}
+#home .wrapper header .header-top h5 { 
+      color: #fff;
+}
+#home .wrapper header .header-middle { 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 7vh;
+      padding-left: 45px;
+      padding-right: 45px;
+      border-bottom: 1px solid #cecece;
+}
+#home .wrapper header .header-middle .left { 
+      display: flex;
+      justify-content:flex-start;
+      align-items: center;
+      width: 15%;
+}
+#home .wrapper header .header-middle .left .flag { 
+      width: 16%;
+      margin-right: 11px;
+}
+#home .wrapper header .header-middle .left .india { 
+      border-right: 2px solid;
+}
+#home .wrapper header .header-middle .left .india a { 
+      color: #000;
+      margin-right: 10px;
+}
+#home .wrapper header .header-middle .left .english a { 
+      margin-left: 10px;
+}
+#home .wrapper header .header-middle .right ul { 
+      display: flex;
+      align-items: flex-end;
+}
+#home .wrapper header .header-middle .center h1{
+      font-weight: bolder;
+}
+.fa-user{
+      color: #000;
+      margin-right: 8px;
+}
+.fa-magnifying-glass{
+      color: #000;
+}
+.fa-heart{
+      color: #000;
+}
+.fa-bag-shopping{
+      color: #000;
+}
+#home .wrapper header .header-middle .right ul li { 
+      margin-right: 20px;
+}
+#home .wrapper header .header-bottom { 
+      width: 100%;
+      height: 5vh;
+      padding-top: 7px;
+}
+#home .wrapper header .header-bottom ul { 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+#home .wrapper header .header-bottom ul li { 
+     margin-right: 45px;
+}
+.header-bottom ul li a:hover{
+      transition: .5s;
+      text-decoration: underline;
+}
+#home .wrapper #spotlight { 
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;    
+}
+#home .wrapper #spotlight .container .video { 
+      position: relative;
+}
+#home .wrapper #spotlight .container .content { 
+      position: absolute;
+      z-index: 1;
+      top: 33rem;
+      width: 25%;
+      padding-left: 6rem;
+}
+#home .wrapper #spotlight .container .content h6 { 
+     padding-bottom: 15px;
+}
+#home .wrapper #spotlight .container .content h2 { 
+      padding-bottom: 10px;
+      font-weight: bold;
+}
+#home .wrapper #spotlight .container .content p { 
+      font-size: 15px;
+      padding-bottom: 25px;
+}
+#home .wrapper #spotlight .container .content .button { 
+      border: 1px solid #000;
+      background: #000;
+      color: #fff;
+      padding: 8px 25px;
+}
+#home .wrapper #about { 
+      background-color: #f3e1db;
+}
+#home .wrapper #about .wrapper{
+      height: 90vh;
+}
+#home .wrapper #about .wrapper .about-top { 
+      height: 12rem;
+      text-align: center;
+      padding-top: 50px;
+      line-height: 3rem;
+}
+#home .wrapper #about .wrapper .about-top h1 { 
+      font-size: 40px;
+      font-weight: bold;
+}
+#home .wrapper #about .wrapper .about-middle { 
+      width: 75%;
+      margin: 0 auto;
+}
+#home .wrapper #about .wrapper .about-middle ul { 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+#home .wrapper #about .wrapper .about-middle ul li .top { 
+      width: 95%;
+}
+#home .wrapper #about .wrapper .about-middle ul li .bottom { 
+      text-align: center;
+      padding-top: 25px;
+}
+#home .wrapper #about .wrapper .about-middle ul li .bottom h4{
+      font-weight: bold;
+}
+#home .wrapper footer { 
+      width: 100%;
+}
+#home .wrapper footer .wrapper { 
+      display: flex;
+}
+#home .wrapper footer .wrapper .footer-left { 
+      width: 90%;
+      background-color: rgb(44, 42, 42);
+      padding: 50px;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-top h4 { 
+      color: #fff;
+      font-size: 22px;
+      font-weight: bold;
+      padding-bottom: 10px;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-top h6 { 
+      color: #fff;
+      font-size: 13px;
+      padding-bottom: 15px;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-top .phone { 
+      border: 1px solid #666;
+      padding: 10px 25px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-top .phone input { 
+      color: #666;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-top .phone button .fa-solid { 
+      color: #fff;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-top .email { 
+      border: 1px solid #666;
+      padding: 10px 25px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-top .email input { 
+      color: #666;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-top .email button .fa-solid { 
+      color: #fff;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-bottom { 
+      padding-top: 14rem;
+}
+#home .wrapper footer .wrapper .footer-left .footer-left-bottom h4 { 
+      color: #fff;
+}
+#home .wrapper footer .wrapper .footer-right { 
+      background-color: #000;
+}
+#home .wrapper footer .wrapper .footer-right .footer-right-top { 
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+      gap: 50px;
+}
+#home .wrapper footer .wrapper .footer-right .footer-right-top .item { 
+      width: 50%;
+}
+#home .wrapper footer .wrapper .footer-right .footer-right-top .item h4 { 
+      color: #fff;
+      font-size: 21px;
+      font-weight: bolder;
+      margin-bottom: 10px;
+}
+#home .wrapper footer .wrapper .footer-right .footer-right-top .item ul li a { 
+      color: #fff;
+      font-size: 13px;
+}
+#home .wrapper footer .wrapper .footer-right .right-middle ul{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 50px;
+}
+#home .wrapper footer .wrapper .footer-right .right-middle ul a{
+      color: #fff;
+      font-size: 17px;
+}
+#home .wrapper footer .wrapper .footer-right .right-bottom { 
+      margin-top: 7rem;
+}
+#home .wrapper footer .wrapper .footer-right .right-bottom ul { 
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 50px;
+}
+#home .wrapper footer .wrapper .footer-right .right-bottom ul li a { 
+      color: #fff;
+      font-size: 12px;
+}
+.fa-instagram{
+      
+}
+#home .wrapper footer .wrapper .footer-right .right-bottom ul li span img { 
+      width: 25px;
+}
+#home .wrapper footer .wrapper .footer-right .right-bottom ul li a.button{
+      border: 1px solid green;
+      padding: 10px;
+      color: green;
+}
+@media all and (max-width: 1440px) {
+      #home .wrapper #about .wrapper {
+            height: 95vh;
+        }
+}
+@media (max-width: 1080px) {
+      #home .wrapper #about .wrapper {
+          height: 83vh;
+      }
+      #home .wrapper footer .wrapper .footer-right .right-bottom ul {
+            gap: 13px;
+            padding: 35px 32px;
+        }
+        #home .wrapper footer .wrapper .footer-left .footer-left-bottom {
+            padding-top: 12rem;
+        }
+}
+@media all and (max-width:980px){
+      #home .wrapper #spotlight .container .video video{
+            width: 136%;
+      }
+}
+@media all and (max-width: 768px){
+      #home .wrapper header .header-top{
+            width: 109%;
+      }
+      #home .wrapper header .header-middle{
+            width: 109%;
+      }
+      #home .wrapper header .header-bottom ul li {
+            margin-right: 20px;
+        }
+        #home .wrapper header .header-middle .left{
+            width: 23%;
+        }
+        #home .wrapper #spotlight{
+            width: 109%;
+        }
+        #home .wrapper #spotlight .container .video video{
+            width: 166%;
+        }
+        #home .wrapper #spotlight .container .content{
+            width: 38%;
+        }
+        #home .wrapper #about .wrapper {
+            height: 71vh;
+        }
+        #home .wrapper #about{
+            width: 109%;
+        }
+        #home .wrapper footer {
+            width: 109%;
+        }
+        #home .wrapper footer .wrapper{
+            display: block;
+        }
+        #home .wrapper footer .wrapper .footer-left{
+            width: 100%;
+        }
+        #home .wrapper footer .wrapper .footer-left .footer-left-top .phone{
+            width: 60%;
+        }
+        #home .wrapper footer .wrapper .footer-left .footer-left-top .email{
+            width: 60%;
+        }
+        #home .wrapper header .header-bottom{
+            width: 109%;
+        }
+        #home .wrapper footer .wrapper .footer-left .footer-left-top h6{
+            font-size: 16px;
+        }
+      }
+      @media all and (max-width: 640px){
+            #home .wrapper header .header-bottom ul li {
+                  margin-right: 12px;
+              }
+              #home .wrapper header .header-middle {
+                  width: 115%;
+              }
+              #home .wrapper header .header-middle .left .india a {
+                  margin-right: 7px;
+                  font-size: 14px;
+              }
+              #home .wrapper header .header-middle .left .english a{
+                  font-size: 14px;
+              }
+              #home .wrapper header .header-middle .center h1 {
+                  font-size: 18px;
+              }
+              #home .wrapper header .header-middle .right ul li {
+                  margin-right: 16px;
+              }
+              /* .wrapper{
+                  width: 106%;
+              }
+              #home .wrapper header{
+                  width: 106%;
+              }
+              #home .wrapper #spotlight{
+                  width: 117%;
+              } */
+      }
